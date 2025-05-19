@@ -94,8 +94,8 @@ if run_analysis:
 
         pdf = PDF()
         pdf.add_page()
-        pdf.add_font("DejaVu", "", fname="F:/AI learninig/Projects/ttf/DejaVuSans.ttf", uni=True)
-        pdf.add_font("DejaVu", "B", fname="F:/AI learninig/Projects/ttf/DejaVuSans-Bold.ttf", uni=True)
+        pdf.add_font("DejaVu", "", fname="DejaVuSans.ttf", uni=True)
+        pdf.add_font("DejaVu", "B", fname="DejaVuSans-Bold.ttf", uni=True)
         pdf.set_font("DejaVu", size=12)
         title = get_display(arabic_reshaper.reshape("تحلیل احساسات اخبار مالی"))
         pdf.cell(200, 10, txt=title, ln=True, align="C")
