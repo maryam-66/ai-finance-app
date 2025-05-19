@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+yfinance
+scikit-learn
+ta
+matplotlib
+nltk
+fpdf2
+arabic_reshaper
+python-bidi
